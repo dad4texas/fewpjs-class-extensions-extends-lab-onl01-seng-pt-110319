@@ -7,7 +7,7 @@ class Polygon {
 
     get countSides() {
         return this.count
-        
+
     }
     get perimeter() {
         let total = 0
@@ -18,7 +18,7 @@ class Polygon {
             })
             return total
         }
-        
+
     }
 
 
@@ -37,7 +37,7 @@ class Square extends Polygon {
 
     get area() {
      return this.sides[0] * this.sides[0]
-        
-       
+
+
     }
 } 
